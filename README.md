@@ -3,10 +3,16 @@
 
 ### 1. .git 파일 생성
 
-```
-git init              # .git 파일 생성
-git status            # 현재 git 상태 확인 
-```
+> ### 기본
+> ```
+> git init              # .git 파일 생성
+> git status            # 현재 git 상태 확인 
+> ```
+
+> ### .gitignore
+> DS_Store/thumb.db와 같은 무시하는 것들 넣기
+
+--------------------------------------------------
 
 ### 2. 파일 수정
 
@@ -29,6 +35,8 @@ git status            # 현재 git 상태 확인
 > git checkout -b cheez     # cheez branch를 새로 만들고 이동하는 경우
 >```
 
+----------------------------------------
+
 ### 3. add & commit
 
 > ### add - untracked/modified :arrow_right: tracked
@@ -43,6 +51,8 @@ git status            # 현재 git 상태 확인
 > git commit -m '1st'      # 1st라는 메시지로 커밋
 > git commit -?? '1st'     # add + commit
 >```
+
+------------------------------------------
 
 ### 4. 깃헙 푸시
 
