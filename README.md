@@ -31,6 +31,18 @@ git status            # 현재 git 상태 확인
 
 ### 3. add & commit
 
+> ### add - untracked/modified :arrow_right: tracked
+>```
+> git add 파일이름          # 해당 파일만 tracked 상태로
+> git add .                # 모든 파일을 tracked 상태로
+>```
 
-### 4. 깃헙 푸시시
+> ### commit 
+>```
+> git commit               # 메시지 입력 창이 뜸뜸
+> git commit -m '1st'      # 1st라는 메시지로 커밋
+> git commit -?? '1st'     # add + commit
+>```
+
+### 4. 깃헙 푸시
 
