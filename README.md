@@ -13,6 +13,7 @@
 #### .gitignore
 DS_Store/thumb.db와 같은 무시하는 것들 넣기
 
+--------------------------
 
 ### 2. 파일 수정
 
@@ -42,6 +43,7 @@ DS_Store/thumb.db와 같은 무시하는 것들 넣기
 > git branch -d cheez       # cheez branch 삭제
 >```
 
+------------------------
 
 ### 3. add & commit
 
@@ -59,6 +61,7 @@ DS_Store/thumb.db와 같은 무시하는 것들 넣기
 > git commit --amend -m '~' # 기존 커밋 메시지 수정
 >```
 
+-------------------------
 
 ### 4. 깃헙 푸시
 
