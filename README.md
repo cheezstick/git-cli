@@ -10,18 +10,24 @@ git status            # 현재 git 상태 확인
 
 ### 2. 파일 수정
 
-> #### log
+> ### log - history 확인
 > ```
-> git log               # git history를 CLI로 확인
->                       # commit 옆 내용 = 해당 파일 hash
-> git log --oneline    # hash를 짧게 표현, 한줄로 log 확인
+> git log                   # git history를 CLI로 확인
+>                           # commit 옆 내용 = 커밋ID
+> git log --oneline         # hash를 짧게 표현, 한 줄로 log 확인
 > ```
 
-> ##### reset
->
+> ### reset - 해당 커밋ID 상태로 이동
+>```
+> git reset --soft 커밋ID   # Working directory & staging 초기화
+> git reset --hard 커밋ID   # Working directory & staging 유지
+>```
 
-> ##### checkout
->
+> ### checkout - branch 이동
+>```
+> git checkout cheez        # cheez branch가 있는 경우
+> git checkout -b cheez     # cheez branch를 새로 만들고 이동하는 경우
+>```
 
 ### 3. add & commit
 
